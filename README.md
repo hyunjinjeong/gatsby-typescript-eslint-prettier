@@ -1,6 +1,29 @@
 # Gatsby-TypeScript-ESLint-Prettier for Github Pages
 
-This repository is to figure out how to set up Gatsby with TypeScript, ESLint and Prettier and deploy the project to Github Pages.
+<p style="text-align: center;">
+  <a href="https://www.gatsbyjs.org/">
+    <img src="./readme_imgs/logo_gatsby.svg" alt="gatsby" style="width: 20%;">
+  </a>
+  <span style="font-size: 6em;">+</span>
+  <a href="https://www.typescriptlang.org/">
+    <img src="./readme_imgs/logo_ts.svg" alt="typescript" style="width: 20%;">
+  </a>
+  <a href="https://eslint.org/">
+    <img src="./readme_imgs/logo_eslint.svg" alt="eslint" style="width: 20%;">
+  </a>
+  <a href="https://prettier.io/">
+    <img src="./readme_imgs/logo_prettier.svg" alt="prettier" style="width: 20%;">
+  </a>
+  <span style="font-size: 3em;">On&nbsp;&nbsp;</span>
+  <a href="https://pages.github.com/">
+    <img src="./readme_imgs/logo_github.svg" alt="ghpages" style="width: 25%;">
+  </a>
+  <br><br>
+</p>
+
+This repository is for the setup of Gatsby with TypeScript, ESLint and Prettier and deploy the project to Github Pages.
+
+You can simply clone this repository and run `npm install` then start developing, or follow the instructions below step by step on your own.
 
 ## Installation of Gatsby.js
 
@@ -240,7 +263,7 @@ Next, add a script in `package.json`.
 ```
 
 **To deploy the project, your github repository should have a `gh-pages` branch, and set the branch as the source.**
-![gh-pages_setting](./gh_pages_setting.png)
+![gh-pages_setting](./readme_imgs/gh_pages_setting.png)
 
 Now when you run `npm run deploy`, the project will be deployed via Github Pages at: **<https://username.github.io/repo>**.
 
