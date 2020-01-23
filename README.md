@@ -288,7 +288,7 @@ If you run 'npm run deploy', your website will be published at: **<https://usern
 
 ## You're good to go
 
-You've just finished the setup using Gatsby, TypeScript, ESLint, Prettier and deployed the website to Github Pages, which is the most annoying part of developing.
+You've just finished the setup using Gatsby, TypeScript, ESLint and Prettier and deployed the website to Github Pages, which is the most annoying part of developing.
 
 Now, happy coding!
 
