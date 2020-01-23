@@ -26,8 +26,6 @@
 
 This repository is for the setup of Gatsby with TypeScript, ESLint and Prettier and deploy the project to Github Pages.
 
-You can simply clone this repository and run `npm install` then start developing, or follow the instructions below step by step on your own.
-
 ## Installation of Gatsby.js
 
 Prerequisites: `node.js`, `npm`, `git`
