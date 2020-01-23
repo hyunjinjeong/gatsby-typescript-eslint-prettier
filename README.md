@@ -76,17 +76,17 @@ In `tsconfig.json`, these options should be set if you want to use project files
 ```json
 {
   "compilerOptions": {
-    "allowJS": true /* Allow javascript files to be compiled. */,
-    "jsx": "preserve" /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */,
-    "noEmit": true /* Do not emit outputs. */
+    "allowJS": true, // Allow javascript files to be compiled.
+    "jsx": "preserve", // Specify JSX code generation: 'preserve', 'react-native', or 'react'.
+    "noEmit": true // Do not emit outputs.
   },
   "include": ["src"]
 }
 ```
 
-For more information about `tsconfig.json`, visit [TypeScript Compiler Options](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
-
 You can now change the filename `index.js` to `index.tsx`.
+
+For more information about `tsconfig.json`, visit [TypeScript Compiler Options](https://www.typescriptlang.org/docs/handbook/compiler-options.html).
 
 ## Apply ESLint and Prettier
 
@@ -219,9 +219,9 @@ First, you need to install the `gh-pages` package.
 npm install --save-dev gh-pages
 ```
 
-### Deploy to a repository (ex: username.github.io/repo/)
+### Deploy to a repository
 
-In `gatsby-config.js`, you need to add `--prefix-path` like this:
+For a repository name like `username.github.io/repo/`, you need to add `--prefix-path` in `gatsby-config.js`.:
 
 ```javascript
 module.exports = {
@@ -239,20 +239,41 @@ Next, add a script in `package.json`.
 }
 ```
 
-Now if you run `npm run deploy`, the project will be deployed.
+**To deploy the project, your github repository should have a `gh-pages` branch, and set the branch as the source.**
+![gh-pages_setting](./gh_pages_setting.png)
+
+Now when you run `npm run deploy`, the project will be deployed via Github Pages at: **https://username.github.io/repo/**.
+
+### Deploy to a user github page
+
+For a repository named as `username.github.io`, you don't have to specify `pathPrefix` and the website should be pushed to the `master` branch.
+
+In `package.json`, add a script.
+
+```json
+{
+  "scripts": {
+    "deploy": "gatsby build && gh-pages -d public -b master"
+  }
+}
+```
+
+If you run 'npm run deploy', your website will be published at: **https://username.github.io**
 
 ## You're good to go
 
-You've just finished the setup using Gatsby, TypeScript, ESLint, Prettier and Github Pages, which is the most annoying part of developing.
+You've just finished the setup using Gatsby, TypeScript, ESLint, Prettier and deployed the website to Github Pages, which is the most annoying part of developing.
+
+Now, happy coding!
 
 ## References
-
-[TypeScript-ESLint - Getting Started](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md)
 
 [Gatsby - Tutorial](https://www.gatsbyjs.org/tutorial/part-zero/)
 
 [Gatsby - How Gatsby Works with GitHub Pages](https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/)
 
+[npm - eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+
 [Prettier - Integrating with Linters](https://prettier.io/docs/en/integrating-with-linters.html)
 
-[npm - eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+[typescript-eslint - Getting Started](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md)
