@@ -1,12 +1,12 @@
 # Gatsby-TypeScript-ESLint-Prettier for Github Pages
 
 <p>
-  <div style="text-align: center;">
+  <div align="center">
     <a href="https://www.gatsbyjs.org/">
       <img src="./readme_imgs/logo_gatsby.svg" alt="gatsby" width="10%" height="10%">
     </a>
   </div>
-  <div style="text-align: center;">
+  <div align="center">
     <a href="https://www.typescriptlang.org/">
       <img src="./readme_imgs/logo_ts.svg" alt="typescript" width="10%" height="10%">
     </a>
@@ -17,9 +17,9 @@
       <img src="./readme_imgs/logo_prettier.svg" alt="prettier" width="10%" height="10%">
     </a>
   </div>
-  <div style="text-align: center;">
+  <div align="center">
     <a href="https://pages.github.com/">
-      <img src="./readme_imgs/logo_github.svg" alt="ghpages" width="10%" height="10%">
+      <img src="./readme_imgs/logo_github.svg" alt="ghpages" width="10%" height="10%" align="center">
     </a>
   </div>
 </p>
