@@ -268,7 +268,7 @@ Next, add a script in `package.json`.
 **To deploy the project, your github repository should have a `gh-pages` branch, and set the branch as the source.**
 ![gh-pages_setting](./readme_imgs/gh_pages_setting.png)
 
-Now when you run `npm run deploy`, the project will be deployed via Github Pages at: **<https://username.github.io/repo>**.
+Now when you run `npm run deploy`, the project will be deployed via Github Pages at: [https://username.github.io/repo](#).
 
 ### Deploy to a user github page
 
@@ -284,7 +284,7 @@ In `package.json`, add a script.
 }
 ```
 
-If you run 'npm run deploy', your website will be published at: **<https://username.github.io>**
+If you run 'npm run deploy', your website will be published at: [https://username.github.io](#).
 
 ## You're good to go
 
