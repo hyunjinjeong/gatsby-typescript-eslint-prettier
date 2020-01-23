@@ -1,4 +1,4 @@
-# Gatsby-TypeScript-ESLint-Prettier for Github Pages
+# Gatsby-TypeScript-ESLint-Prettier on Github Pages
 
 <p>
   <div align="center">
@@ -48,7 +48,7 @@ cd REPO_NAME
 gatsby develop
 ```
 
-If you can see the page, you installed Gatsby successfully.
+If you can view the page, Gatsby has been successfully installed.
 
 ## TypeScript
 
