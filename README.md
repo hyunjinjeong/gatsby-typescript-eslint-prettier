@@ -245,7 +245,7 @@ First, you need to install the `gh-pages` package.
 npm install --save-dev gh-pages
 ```
 
-### Deploy to a repository
+### Deploy to a github repository page
 
 For a repository name like `username.github.io/repo/`, you need to add `--prefix-path` in `gatsby-config.js`.:
 
@@ -270,7 +270,7 @@ Next, add a script in `package.json`.
 
 Now when you run `npm run deploy`, the project will be deployed via Github Pages at: [https://username.github.io/repo](#).
 
-### Deploy to a user github page
+### Deploy to a github user/organization page
 
 For a repository named as `username.github.io`, you don't have to specify `pathPrefix` and the website should be pushed to the `master` branch.
 
