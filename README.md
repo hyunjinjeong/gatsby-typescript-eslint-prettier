@@ -76,9 +76,9 @@ In `tsconfig.json`, these options should be set if you want to use project files
 ```json
 {
   "compilerOptions": {
-    "allowJS": true, // Allow javascript files to be compiled.
-    "jsx": "preserve", // Specify JSX code generation: 'preserve', 'react-native', or 'react'.
-    "noEmit": true // Do not emit outputs.
+    "allowJS": true,
+    "jsx": "preserve",
+    "noEmit": true
   },
   "include": ["src"]
 }
