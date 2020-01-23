@@ -1,24 +1,27 @@
 # Gatsby-TypeScript-ESLint-Prettier for Github Pages
 
-<p style="text-align: center;">
-  <a href="https://www.gatsbyjs.org/">
-    <img src="./readme_imgs/logo_gatsby.svg" alt="gatsby" style="width: 20%;">
-  </a>
-  <span style="font-size: 6em;">+</span>
-  <a href="https://www.typescriptlang.org/">
-    <img src="./readme_imgs/logo_ts.svg" alt="typescript" style="width: 20%;">
-  </a>
-  <a href="https://eslint.org/">
-    <img src="./readme_imgs/logo_eslint.svg" alt="eslint" style="width: 20%;">
-  </a>
-  <a href="https://prettier.io/">
-    <img src="./readme_imgs/logo_prettier.svg" alt="prettier" style="width: 20%;">
-  </a>
-  <span style="font-size: 3em;">On&nbsp;&nbsp;</span>
-  <a href="https://pages.github.com/">
-    <img src="./readme_imgs/logo_github.svg" alt="ghpages" style="width: 25%;">
-  </a>
-  <br><br>
+<p>
+  <div style="text-align: center;">
+    <a href="https://www.gatsbyjs.org/">
+      <img src="./readme_imgs/logo_gatsby.svg" alt="gatsby" width="10%" height="10%">
+    </a>
+  </div>
+  <div style="text-align: center;">
+    <a href="https://www.typescriptlang.org/">
+      <img src="./readme_imgs/logo_ts.svg" alt="typescript" width="10%" height="10%">
+    </a>
+    <a href="https://eslint.org/">
+      <img src="./readme_imgs/logo_eslint.svg" alt="eslint" width="10%" height="10%">
+    </a>
+    <a href="https://prettier.io/">
+      <img src="./readme_imgs/logo_prettier.svg" alt="prettier" width="10%" height="10%">
+    </a>
+  </div>
+  <div style="text-align: center;">
+    <a href="https://pages.github.com/">
+      <img src="./readme_imgs/logo_github.svg" alt="ghpages" width="10%" height="10%">
+    </a>
+  </div>
 </p>
 
 This repository is for the setup of Gatsby with TypeScript, ESLint and Prettier and deploy the project to Github Pages.
