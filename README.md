@@ -213,9 +213,33 @@ In the `.prettierrc` configuration file, you can customize options. Visit [Prett
 
 ## Deploy the project to Github Pages
 
+First, you need to install the `gh-pages` package.
+
 ```shell
 npm install --save-dev gh-pages
 ```
+
+### Deploy to a repository (ex: username.github.io/repo/)
+
+In `gatsby-config.js`, you need to add `--prefix-path` like this:
+
+```javascript
+module.exports = {
+  pathPrefix: '/repo',
+};
+```
+
+Next, add a script in `package.json`.
+
+```json
+{
+  "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  }
+}
+```
+
+Now if you run `npm run deploy`, the project will be deployed.
 
 ## You're good to go
 
