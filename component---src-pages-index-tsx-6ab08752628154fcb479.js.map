@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/index.tsx"],"names":["index"],"mappings":"2FAAA,gCAIeA,UAFS,kBAAM","file":"component---src-pages-index-tsx-6ab08752628154fcb479.js","sourcesContent":["import React from 'react';\n\nconst index: React.FC = () => <div>Hello world!</div>;\n\nexport default index;\n"],"sourceRoot":""}
