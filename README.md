@@ -232,7 +232,7 @@ In the `.prettierrc` configuration file, you can customize options. Visit [Prett
   "trailingComma": "all",
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
-  "arrowParens": "avoid",
+  "arrowParens": "always",
   "endOfLine": "lf"
 }
 ```
