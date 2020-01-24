@@ -26,8 +26,6 @@
 
 This repository is for the setup of Gatsby with TypeScript, ESLint and Prettier and deploy the project to Github Pages.
 
-You can simply clone this repository and run `npm install` then start developing, or follow the instructions below step by step on your own.
-
 ## Installation of Gatsby.js
 
 Prerequisites: `node.js`, `npm`, `git`
@@ -97,7 +95,7 @@ If you don't install any other pacakges like ESLint, you need to install these t
 npm install --save-dev @types/react @types/react-dom @types/node
 ```
 
-In `tsconfig.json`, these options should be set if you want to use project files as they are without getting errors.
+In `tsconfig.json`, these options should be set if you want to use the project files as they are without getting errors.
 
 ```json
 {
@@ -138,7 +136,7 @@ Then initialize ESLint.
 npx eslint --init
 ```
 
-During the initialization process, choose options whichever you prefer. However, the configuration steps will differ depending on what you chose. These are my recommendations.
+During the initialization process, choose options whichever you prefer. However, the configuration steps will differ depending on what you choose. These are my recommendations.
 
 - How would you like to use ESLint?
   **To check syntax and find problems**
@@ -218,7 +216,7 @@ In `.eslintrc.json`, add it in 'extends'.
 
 ### Prettier Setting
 
-In the `.prettierrc` configuration file, you can customize options. Visit [Prettier Options](https://prettier.io/docs/en/options.html) for the detail. The options below are mine:
+In the `.prettierrc` configuration file, you can customize options. Visit [Prettier Options](https://prettier.io/docs/en/options.html) for the detail. The below are my options:
 
 ```json
 {
